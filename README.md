@@ -183,3 +183,5 @@ https://github.com/catppuccin/firefox
 https://github.com/catppuccin/dark-reader
 
 Select macchiato and blue for both guides.
+
+you can also have a look at firefox css to customize firefox more. Note not all designs work on linux
