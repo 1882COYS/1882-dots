@@ -19,3 +19,7 @@ sudo pacman -S neofetch thunar dunst kvantum rofi swaylock waybar wofi ccache qt
 ```bash
 yay -S hyprland-git nwg-look wlogout picom ttf-jetbrains-mono-nerd catppuccin-gtk-theme-macchiato papirus-folders sddm-git
 ```
+
+Next, download Dots.zip from the releases tab, unzip ther archive, then move all the files to ~/.config
+
+restart your device then select hyprland from the sddm login, you should boot into hyprland
