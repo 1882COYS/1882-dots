@@ -182,4 +182,4 @@ https://github.com/catppuccin/firefox
 
 https://github.com/catppuccin/dark-reader
 
-Select macchiato for both guides.
+Select macchiato and blue for both guides.
