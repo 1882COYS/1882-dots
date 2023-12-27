@@ -1,5 +1,7 @@
 # 1882-dots
 
+![Plain](Images/plain.jpg "plain")
+
 ## Credits:
 
 Catppuccin - The theme used througout the rice.
@@ -184,4 +186,8 @@ https://github.com/catppuccin/dark-reader
 
 Select macchiato and blue for both guides.
 
-you can also have a look at firefox css to customize firefox more. Note not all designs work on linux
+---
+
+You can also have a look at firefox css to customize firefox more. Note not all designs work on linux
+
+Visit the [Catppuccin github page](https://github.com/catppuccin/catppuccin) for lots more app designs!
