@@ -41,6 +41,8 @@ If you have any issuses make an issue on github, dont message me.
 
 ### These hyprland dotfiles can only be installed on arch linux or any arch based distrobution. It is posible to install them on other distros, such as openSUSE Tumbleweed, but issues will be prominent.
 
+### These instruction have NOT been tested, please use the install script, thank you!
+
 First of all, you need to install some packages. Run these command in a terminal of your choice:
 
 ```zsh
