@@ -139,7 +139,7 @@ To install the sddm theme open kitty and run:
 ```zsh
 git clone https://github.com/catppuccin/sddm
 cd sddm/src
-cp -r catppuccin-macchiato /usr/share/themes/
+cp -r catppuccin-macchiato /usr/share/sddm/themes/
 ```
 
 Then run:
