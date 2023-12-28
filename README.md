@@ -6,7 +6,7 @@
 
 Catppuccin - The theme used througout the rice.
 
-Qeatrix - Wallpaper
+Qeatrix - Wallpaper 
 
 Various dotfiles for snippets of code and ideas
 
