@@ -64,7 +64,7 @@ git clone https://github.com/catppuccin/sddm
 
 cd sddm/src
 
-sudo cp -r catppuccin-macchiato /usr/share/themes/
+sudo cp -r catppuccin-macchiato /usr/share/sddm/themes/
 
 cd .. && cd .. 
 
