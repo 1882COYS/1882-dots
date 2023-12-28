@@ -74,6 +74,7 @@ After this, you can yet again open kitty and run:
 
 ```zsh
 yay -S paprus-folders-catppuccin-git
+papirus-folders -C cat-macchiato-blue
 ```
 
 When asked to remove paprus-folders, press y and enter
