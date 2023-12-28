@@ -17,7 +17,7 @@ Various dotfiles for snippets of code and ideas
 First of all, you need to install some packages. Run these command in a terminal of your choice:
 
 ```zsh
-sudo pacman -S neofetch thunar dunst kvantum rofi swaylock waybar wofi ccache qt6ct qt6-wayland qt5-graphicaleffects qt5-svg qt5-quickcontrols2 zsh firefox kitty
+sudo pacman -S neofetch thunar dunst kvantum rofi swaylock waybar wofi ccache qt6ct qt6-wayland qt5-graphicaleffects qt5-svg qt5-quickcontrols2 zsh firefox kitty swaybg brightnessctl pamixer
 ```
 
 ```zsh
