@@ -10,7 +10,34 @@ Qeatrix - Wallpaper
 
 Various dotfiles for snippets of code and ideas
 
-## Installation:
+# Installation:
+
+## Install script(recomended) 
+
+Firstly, go to releases and download the install.sh release
+
+Open a terminal in your download location, run these two commands:
+
+```bash
+sudo chmod +x install.sh
+./install.sh
+```
+
+Do as the script tells you until it has finished
+
+Next open kitty with Super + Enter and run:
+
+```zsh
+nwg-look
+```
+
+Select "Catppuccin-Macchiato-Standard-Blue-Dark" then press "apply". Next switch tabs to Icon Theme by pressing the buttion of the same name at the top, select Paprus-Dark, then hit apply again. you can now close all windows with Super + Q
+
+Lastly you will need to reboot your device. When you reach the sddm screen, select hyprland and login to your account
+
+If you have any issuses make an issue on github, dont message me.
+
+## Manual
 
 ### These hyprland dotfiles can only be installed on arch linux or any arch based distrobution. It is posible to install them on other distros, such as openSUSE Tumbleweed, but issues will be prominent.
 
@@ -73,7 +100,7 @@ You can then open kvantum by pressing Super + Space to open the program launcher
 After this, you can yet again open kitty and run:
 
 ```zsh
-yay -S paprus-folders-catppuccin-git
+yay -S papirus-folders-catppuccin-git
 papirus-folders -C cat-macchiato-blue
 ```
 
