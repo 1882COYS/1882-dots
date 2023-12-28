@@ -52,11 +52,7 @@ cp -r .p10k.zsh ~/
 
 sudo chmod +x ~/.config/waybar/temp.py
 
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-
-git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
-
-echo When prompted to remove paprus folders press y and enter
+echo When prompted to remove papirus folders press y and enter
 
 sleep 3
 
@@ -68,10 +64,14 @@ git clone https://github.com/catppuccin/sddm
 
 cd sddm/src
 
-cp -r catppuccin-macchiato /usr/share/themes/
+sudo cp -r catppuccin-macchiato /usr/share/themes/
 
 cd .. && cd .. 
 
-cp -r sddm.conf /etc
+sudo cp -r sddm.conf /etc
 
 echo Refer back to github page to complete.
+
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
