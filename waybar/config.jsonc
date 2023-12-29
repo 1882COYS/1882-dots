@@ -24,7 +24,7 @@
 
     "custom/launcher": {
         "tootltip": false,
-        "format" : " ",
+        "format" : " 󰣇",
         "on-click": "wofi",
         "on-click-right": "killall wofi"
     },
