@@ -1,6 +1,6 @@
 # 1882-dots
 
-![Plain](Images/full.png "plain")
+![Plain](Images/full.jpg "plain")
 
 ## Credits:
 
