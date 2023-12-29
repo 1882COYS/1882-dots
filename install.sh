@@ -14,7 +14,7 @@ sleep 3
 
 echo INSTALLING PACMAN PREQUISITS...
 
-sudo pacman -S neofetch thunar dunst kvantum rofi swaylock waybar wofi ccache qt6ct qt6-wayland qt5-graphicaleffects qt5-svg qt5-quickcontrols2 zsh kitty pamixer brightnessctl swaybg
+sudo pacman -S neofetch thunar dunst kvantum waybar wofi ccache qt6ct qt6-wayland qt5-graphicaleffects qt5-svg qt5-quickcontrols2 zsh kitty pamixer brightnessctl swaybg
 
 echo INSTALLING AUR PREQUISITS...
 
