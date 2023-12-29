@@ -1,5 +1,7 @@
 # 1882-dots
 
+## Images
+
 ![full](Screenshots/full.jpg "full")
 
 ## Credits:
