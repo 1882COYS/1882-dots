@@ -35,6 +35,12 @@ nwg-look
 
 Select "Catppuccin-Macchiato-Standard-Blue-Dark" then press "apply". Next switch tabs to Icon Theme by pressing the buttion of the same name at the top, select Paprus-Dark, then hit apply again. you can now close all windows with Super + Q
 
+Afterward run:
+
+```
+cd ~/Downloads/1882-dots && cp -r .zshrc ~/
+```
+
 Lastly you will need to reboot your device. When you reach the sddm screen, select hyprland and login to your account
 
 If you have any issuses make an issue on github, dont message me.
