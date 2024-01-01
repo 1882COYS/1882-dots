@@ -43,7 +43,7 @@ cd ~/Downloads/1882-dots && cp -r .zshrc ~/
 
 Lastly you will need to reboot your device. When you reach the sddm screen, select hyprland and login to your account
 
-If your monitors arent cooperating, check out https://wiki.hyprland.org/Crashes-and-Bugs/
+If your monitors arent cooperating, check out https://wiki.hyprland.org/Configuring/Monitors/
 
 If you have any issuses make an issue on github, dont message me.
 
