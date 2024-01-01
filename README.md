@@ -61,7 +61,7 @@ sudo pacman -S neofetch thunar dunst kvantum rofi swaylock waybar wofi ccache qt
 yay -S hyprland-git nwg-look wlogout picom ttf-jetbrains-mono-nerd catppuccin-gtk-theme-macchiato papirus-folders sddm-git noto-fonts
 ```
 
-Next, download "Dots.zip" from the releases tab, unzip ther archive, then move all the files apart from "home.jpg" to ~/.config, home.jpg can go to ~/.Pictures
+Next, git clone this repo and move all folders apart from Screenshots to ~/.config and home.jpg to ~/Pictures
 
 Restart your device then select hyprland from the sddm login, you should boot into hyprland
 
