@@ -57,16 +57,7 @@ window#waybar {
     border-radius: 0px 10px 10px 0px;
 }
 
-#custom-temp {
-    background: #24273a;
-    opacity: 0.9;
-    padding: 0px 10px;
-    margin-top: 8px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    border-radius: 0px 0px 0px 0px;
-}
+
 
 #battery {
     background: #24273a;
