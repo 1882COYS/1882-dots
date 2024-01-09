@@ -30,6 +30,7 @@ Do as the script tells you until it has finished
 Next open kitty with Super + Enter and run:
 
 ```zsh
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 nwg-look
 ```
 
