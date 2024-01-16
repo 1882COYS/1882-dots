@@ -9,7 +9,7 @@
 
     "modules-left": ["custom/launcher", "custom/divider", "cpu", "custom/divider", "memory", "custom/divider", "network", "custom/divider", "battery"],
     "modules-center": ["clock"],
-    "modules-right": ["custom/updates", "custom/divider", "backlight", "custom/divider", "pulseaudio", "custom/divider", "custom/divider", "bluetooth", "tray"],
+    "modules-right": ["custom/updates", "custom/divider", "backlight", "custom/divider", "pulseaudio", "custom/divider", "bluetooth", "tray"],
 
     "clock": {
         "format": " {:%a, %e %b, %I:%M %p }"
