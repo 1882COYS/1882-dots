@@ -2,7 +2,7 @@
 
 ## Images
 
-![full](Screenshots/full.jpg "full")
+![full](Screenshots/full.jpeg "full")
 
 ## Credits:
 
