@@ -9,7 +9,7 @@
 
     "modules-left": ["custom/launcher", "custom/divider", "cpu", "custom/divider", "memory", "custom/divider", "network", "custom/divider", "battery"],
     "modules-center": ["clock"],
-    "modules-right": ["custom/updates", "custom/divider", "backlight", "custom/divider", "pulseaudio", "custom/divider", "bluetooth", "tray"],
+    "modules-right": ["custom/updates", "custom/divider", "backlight", "custom/divider", "pulseaudio", "custom/divider", "custom/temp", "custom/divider", "bluetooth", "tray"],
 
     "clock": {
         "format": " {:%a, %e %b, %I:%M %p }"
@@ -25,12 +25,12 @@
     "custom/launcher": {
         "tootltip": false,
         "format" : " 󰣇",
-        "on-click": "wofi",
+        "on-click": "killall wofi || wofi --show drun -n",
         "on-click-right": "killall wofi"
     },
 
     "cpu": {
-        "interval": 1,
+        "interval": 30,
         "format" : "  {}%",
         "max-length": 10
     },
@@ -38,11 +38,11 @@
     "memory": {
         "interval": 1,
         "format": " {}%",
-        "max-length": 10
+        "max-length": 30
     },
 
     "network": {
-        "interval": 1,
+        "interval": 100,
         //"interface": "wlp2s0",
         "format": "{ifname}",
         "format-wifi": " {essid} ({signalStrength}%) ",
@@ -60,8 +60,8 @@
         "format": " {} Update(s)",
         "exec": "checkupdates | wc -l",
         //"exec-if": "[[ $(checkupdates | wc -l) != 0 ]]",
-        "interval": 15,
-        "on-click": "kitty -e yay -Syu && notify-send 'The system has been updated' "
+        "interval": 200,
+        "on-click": "kitty -e sudo pacman -Syyu && notify-send 'The system has been updated' "
     },
 
     "backlight": {
@@ -108,12 +108,18 @@
 	"tray":{
 		"icon-size":18,
 		"spacing": 10
-               },
-	
+	},
+
+	"custom/temp": {
+        "exec": "$HOME/.config/waybar/temp.py",
+        "format": "{}",
+        "tooltip": true,
+        "interval": 20
+
+    },
 
     "bluetooth": {
 	    "format": " {status} ",
-	    "format-disabled": "", // an empty format will hide the module
 	    "format-connected": " {num_connections} ",
 	    "tooltip-format": "{device_alias} ",
 	    "tooltip-format-connected": " {device_enumerate} ",
