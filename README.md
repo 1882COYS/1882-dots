@@ -3,12 +3,11 @@
 ## Images
 
 ![full](Screenshots/full.jpeg "full")
+![launch](Screenshots/launch.jpeg "launch")
 
 ## Credits:
 
 Catppuccin - The theme used througout the rice.
-
-Qeatrix - Wallpaper 
 
 Various dotfiles for snippets of code and ideas
 
